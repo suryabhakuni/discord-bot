@@ -1,0 +1,18 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot that can chat and play games with server members",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["discord", "bot", "games", "chat"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "@google/generative-ai": "^0.2.1"
+  }
+}
